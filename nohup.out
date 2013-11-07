@@ -1,0 +1,35 @@
+[32minfo:[39m Welcome to DocPad v6.54.4 (local installation: /home/websites/twitter/node_modules/docpad)
+[32minfo:[39m Contribute: http://docpad.org/docs/contribute
+[32minfo:[39m Plugins: cleanurls, coffeescript, downloader, eco, less, livereload, marked, partials, related, stylus, text
+[32minfo:[39m Environment: development
+[32minfo:[39m DocPad listening to http://localhost:9778/ on directory /home/websites/twitter/out
+[32minfo:[39m LiveReload listening to new socket on channel /docpad-livereload
+
+string_decoder.js:129
+  var i = (buffer.length >= 3) ? 3 : buffer.length;
+                 ^
+TypeError: Cannot read property 'length' of null
+    at StringDecoder.detectIncompleteChar (string_decoder.js:129:18)
+    at StringDecoder.write (string_decoder.js:99:28)
+    at Interface._normalWrite (readline.js:303:30)
+    at Interface.write (readline.js:294:49)
+    at Interface.ProgressBar.rl.clearLine (/home/websites/twitter/node_modules/docpad/node_modules/progressbar/node_modules/progress/lib/node-progress.js:47:10)
+    at ProgressBar.terminate (/home/websites/twitter/node_modules/docpad/node_modules/progressbar/node_modules/progress/lib/node-progress.js:166:13)
+    at /home/websites/twitter/node_modules/docpad/node_modules/progressbar/out/lib/progressbar.js:145:27
+    at b (domain.js:183:18)
+    at Domain.run (domain.js:123:23)
+    at ProgressBar.destroy (/home/websites/twitter/node_modules/docpad/node_modules/progressbar/out/lib/progressbar.js:144:9)
+    at ProgressBar.<anonymous> (/home/websites/twitter/node_modules/docpad/node_modules/progressbar/out/lib/progressbar.js:35:15)
+    at ProgressBar.EventEmitter.emit (events.js:95:17)
+    at ProgressBar.setStep (/home/websites/twitter/node_modules/docpad/node_modules/progressbar/out/lib/progressbar.js:77:12)
+    at ProgressBar.step (/home/websites/twitter/node_modules/docpad/node_modules/progressbar/out/lib/progressbar.js:65:21)
+    at TaskGroup.<anonymous> (/home/websites/twitter/node_modules/docpad/out/lib/docpad.js:3092:56)
+    at TaskGroup.EventEmitter.emit (events.js:95:17)
+    at Task.<anonymous> (/home/websites/twitter/node_modules/docpad/node_modules/taskgroup/out/lib/taskgroup.js:393:26)
+    at Task.EventEmitter.emit (events.js:117:20)
+    at Task.run (/home/websites/twitter/node_modules/docpad/node_modules/taskgroup/out/lib/taskgroup.js:177:14)
+    at TaskGroup.nextItem (/home/websites/twitter/node_modules/docpad/node_modules/taskgroup/out/lib/taskgroup.js:516:20)
+    at TaskGroup.nextItems (/home/websites/twitter/node_modules/docpad/node_modules/taskgroup/out/lib/taskgroup.js:499:21)
+    at /home/websites/twitter/node_modules/docpad/node_modules/taskgroup/out/lib/taskgroup.js:584:21
+    at process._tickDomainCallback (node.js:459:13)
+An error occured within the child DocPad instance: exited with a non-zero status code
